@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="webmagic">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/accessors-smart-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/asm-5.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/assertj-core-1.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/commons-codec-1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/commons-collections-3.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/commons-io-1.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/commons-lang3-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/commons-pool2-2.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/fastjson-1.2.28.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/httpclient-4.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/httpcore-4.4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/jedis-2.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/json-path-2.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/json-smart-2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/jsoup-1.10.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/junit-4.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/slf4j-api-1.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/slf4j-log4j12-1.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/webmagic-core-0.7.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/webmagic-extension-0.7.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webmagic/xsoup-0.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/jsoup-1.10.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

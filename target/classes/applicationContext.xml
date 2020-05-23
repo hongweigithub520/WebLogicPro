@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 配置service
+        <bean> 配置需要创建的对象
+            id ：用于之后从spring容器获得实例时使用的
+            class ：需要创建实例的全限定类名
+    -->
+    <bean id="User" class="com.hw.spring.dao.UserDao" />
+    <bean id="userServiceId" class="com.hw.spring.dao.UserServiceImpl">
+        <property name="name" value="hw"></property>
+        <property name="User" ref="User"></property>
+    </bean>
+    <!-- -->
+    <!-- 使用设值注入方式装配Person实例 -->
+    <bean id="person1" class="com.hw.spring.dao.Person">
+        <property name="name" value="zhangsan" />
+        <property name="age" value="20" />
+    </bean>
+    <!-- 使用构造方法装配Person实例 -->
+    <bean id="person2" class="com.hw.spring.dao.Person">
+        <constructor-arg index="0" value="lisi" />
+        <constructor-arg index="1" value="21" />
+    </bean>
+</beans>
